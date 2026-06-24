@@ -1,0 +1,24 @@
+{
+  "name": "@skalfa/skalfa-redis",
+  "version": "1.0.0",
+  "description": "Redis utility package for Skalfa API framework using ioredis.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc --ignoreDeprecations 6.0"
+  },
+  "keywords": [
+    "aluna",
+    "redis",
+    "skalfa"
+  ],
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "ioredis": "^5.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.0.0",
+    "typescript": "^6.0.3"
+  }
+}
