@@ -1,7 +1,7 @@
 {
   "name": "@skalfa/skalfa-redis",
   "version": "1.0.0",
-  "description": "Redis utility package for Skalfa API framework using ioredis.",
+  "description": "High-performance Redis client utility wrapper using ioredis for Skalfa backend services.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
