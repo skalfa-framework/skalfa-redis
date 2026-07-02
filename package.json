@@ -1,6 +1,6 @@
 {
   "name": "@skalfa/skalfa-redis",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "High-performance Redis client utility wrapper using ioredis for Skalfa backend services.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -13,7 +13,7 @@
     "skalfa"
   ],
   "author": "",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "dependencies": {
     "ioredis": "^5.4.1"
   },
