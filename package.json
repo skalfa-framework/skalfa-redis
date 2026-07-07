@@ -1,19 +1,14 @@
 {
   "name": "@skalfa/skalfa-redis",
-  "version": "1.0.3",
-  "description": "High-performance Redis client utility wrapper using ioredis for Skalfa backend services.",
+  "version": "1.0.4",
+  "license": "MIT",
+  "description": "Redis client wrapper using ioredis for Skalfa Framework.",
+  "keywords": ["skalfa", "skalfa-api", "skalfa-redis", "bun-framework", "elysia-framework"],
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc --ignoreDeprecations 6.0"
+    "build": "tsc"
   },
-  "keywords": [
-    "aluna",
-    "redis",
-    "skalfa"
-  ],
-  "author": "",
-  "license": "MIT",
   "dependencies": {
     "ioredis": "^5.4.1"
   },
